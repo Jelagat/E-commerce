@@ -1,0 +1,1 @@
+<h3>Dear Customer Your Order Successfully Placed. Please Check your Email For Details</h3>

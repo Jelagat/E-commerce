@@ -1,0 +1,82 @@
+Admin
+	admin_id(pk)
+	admin_full_name
+	admin_email
+	admin_password
+	access_level
+Category
+	category_id(pk)2
+	category_name
+	category_description
+	publication_status
+Customer
+	customer_id(pk)4
+	first_name
+	last_name
+	email
+	password
+	company_name
+	address
+	gender
+	city
+	country
+	zip_code
+	activation_status
+Product
+	product_id(pk)4
+	category_id(fk)
+	manufacturer_id(fk)
+	product_name
+	product_description
+	product_image
+	product_price
+	product_quantity
+	created_date
+	featured_product
+	publication_status
+Manufacture
+	manufacturer_id(pk)3
+	manufacturer_name
+	manufacturer_description
+	publication_status
+Order
+	order_id(pk)4
+	customer_id(fk)
+	shipping_id(fk)
+	payment_id(fk)
+	order_total
+	order_status
+	order_comments
+	order_date_time
+	
+OrderDetails
+	order_details_id(pk)4
+	order_id(fk)
+	product_id(fk)
+	product_price
+	order_date
+	required_date
+Payment
+	payment_id(pk)
+	payment_type
+	payment_status
+	payment_date
+Shipping
+	shipping_id(pk)
+	full_name
+	mobile_no
+	email
+	company_name
+	address
+	city
+	country
+	zip_code
+Feedback
+	feedback_id(pk)
+	name
+	email
+	phone
+	address
+	
+	
+	
